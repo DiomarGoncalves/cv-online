@@ -1,31 +1,100 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-html{
-    background-color: rgba(20, 73, 220, 0.274);
-    font-family: "roboto", sans-serif;
-}
-h1{
-    padding: 1rem;
-}
-h2{
-    padding: 1rem;
-}
-img.foto-perfil{
-    padding: 1rem 8rem;
+  }
+  html {
+    background-color: #7e73e8;
+    font-family: "Roboto", sans-serif;
+  }
+  div#header-informatios {
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2dd881;
+  }
+  header h1 {
+    padding-left: 4rem;
+    color: #fff;
+  }
+  div#main-informations {
+    color: #fff;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #main-informations h2 {
+    margin-bottom: 3rem;
+  }
+  footer a {
+    text-decoration: none;
+    color: rgb(0, 37, 25);
+    margin-left: 1rem;
+  }
+  a:hover {
+    color: #bab5ec;
+    transition: 0.5s;
+  }
+  h2 {
+    align-items: center;
+    justify-content: center;
+  }
+  img.foto-perfil {
     border-radius: 50%;
-}
-div{
-    padding: 1rem;
-}
-ul{
-    padding: 2rem;
-}
-p{
-    padding: 1rem;
-}
-a{
-    padding: 1rem;
-}
+    height: 78px;
+    width: 78px;
+  }
+  footer {
+    width: 100%;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 8rem;
+    background-color: #1c0b19;
+    color: #fff;
+  }
+  footer h2 {
+    margin-top: 3rem;
+  }
+  footer a {
+    color: #fff;
+  }
+  ul {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    margin-left: 1rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+  }
+  img.social-icon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.7rem;
+    width: 30px;
+    height: 30px;
+  }
+  img.social-icon:hover {
+    background-color: rgb(223, 255, 107);
+    border-radius: 0.7rem;
+    transition: 0.5s;
+  }
+  p {
+    font-weight: bold;
+  }
+  strong {
+    color: #000000;
+  }
