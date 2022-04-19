@@ -4,8 +4,10 @@
     box-sizing: border-box;
   }
   html {
-    background-color: #7f73e8bd;
+    background-color: #000000c9;
     font-family: "Roboto", sans-serif;
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
   div#header-informatios {
     width: 100%;
@@ -15,9 +17,8 @@
     justify-content: space-between;
     background-color: #2dd881;
   }
-  header h1 {
-    padding-left: 4rem;
-    color: #fff;
+  .social{
+    padding-left: 1rem;
   }
   div#main-informations {
     color: rgb(236, 236, 236);
@@ -31,7 +32,7 @@
   }
   footer a {
     text-decoration: none;
-    color: rgb(0, 37, 25);
+    color: rgb(0, 255, 174);
     margin-left: 1rem;
   }
   a:hover {
@@ -39,15 +40,16 @@
     transition: 0.5s;
   }
   h2 {
+    color: white;
     align-items: center;
     justify-content: center;
+    padding-left: 1rem;
   }
   img.foto-perfil {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    text-align: center;
     margin: 1rem 2rem;
-
+    border-radius: 50%;
+    border:  solid rgb(0, 209, 0);
   }
   footer {
     width: 100%;
@@ -56,14 +58,14 @@
     flex-direction: column;
     align-items: center;
     padding-left: 8rem;
-    background-color: #1c0b19;
+    background-color: #bab5ec;
     color: #fff;
   }
   footer h2 {
     margin-top: 3rem;
   }
   footer a {
-    color: #fff;
+    color: rgba(30, 255, 0, 0.678);
   }
   ul {
     margin-top: 3rem;
@@ -72,16 +74,19 @@
   li {
     margin-left: 1rem;
     list-style-type: none;
-    display: grid;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
+
   }
   
-  a {
+  ul a {
     font-weight: bold;
     text-decoration: none;
     font-style: italic;
-    color: #500041;
+    color: #ffffffec;
+    background-color: #3cff00a8;
+    border-radius: 5rem;
   }
   img.social-icon {
     background-color: rgb(255, 255, 255);
@@ -98,11 +103,17 @@
     font-weight: bold;
   }
   strong {
-    color: #000000;
+    color: #2bff00d8;
   }
-  div{
+  div {
     padding-left: 1rem;
+    color: white;
   }
-  h2{
-    padding-left: 1rem;
+  div a{
+    color: rgba(255, 255, 255, 0.829);
+    background-color: #51ff00bd;
+    border-radius: 5rem;
+  }
+  h1{
+    color: white;  
   }
