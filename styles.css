@@ -6,6 +6,7 @@
   html {
     background-color: #000000c9;
     font-family: "Roboto", sans-serif;
+    text-align: center;
   }
   div#header-informatios {
     width: 100%;
@@ -44,7 +45,6 @@
     padding-left: 1rem;
   }
   img.foto-perfil {
-    text-align: center;
     margin: 1rem 2rem;
     border-radius: 50%;
     border:  solid rgb(0, 209, 0);
