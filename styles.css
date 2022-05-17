@@ -20,8 +20,8 @@ main {
 #contatos{
   background:linear-gradient(to top, #333e4b, #0e3e4b) fixed;
   color: white;
-  width: 35%;
-  height: 950px;
+  width: 280px;
+  height: 910px;
   float: left;
   padding: 0px;
   margin: 0;
@@ -64,7 +64,7 @@ main {
   background-color: #172432;
 }
 #bio{
-  width: 59%;
+  width: 500px;
   height: 910px;
   float: right;
   padding-left: 25px;
@@ -103,7 +103,19 @@ main {
 /* ajustar o conteudo para celular */
 @media screen and (max-width:480px) {
   main{
-    max-width: 480px;
+    max-width: 420px;
     font-size: 1.0em;
+  }
+  #contatos{
+    padding: 20px;
+    width: 35%;
+    margin-left: -30px;
+  }
+  #bio{
+    padding: 10px;
+    width: 50%;
+  }
+  #bio img{
+    margin-top: 0px;
   }
 }
