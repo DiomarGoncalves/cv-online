@@ -7,7 +7,7 @@ html{
   font-family: "Roboto", sans-serif;
 }
 main {
-  width: 850px;
+  width: 60%;
   height: 950px;
   background-color:rgb(255,255,255);
   font-family:Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ main {
 #contatos{
   background:linear-gradient(to top, #333e4b, #0e3e4b) fixed;
   color: white;
-  width: 281px;
+  width: 35%;
   height: 950px;
   float: left;
   padding: 0px;
@@ -51,16 +51,19 @@ main {
 #contatos ul li img{
   width: 20px;
   height: 20px;
+  float: left;
+  margin-right: 5px;
 }
 #contatos ul li a{
   color: white;
   text-decoration: none;
+  
 }
 #contatos ul li a:hover{
   background-color: #172432;
 }
 #bio{
-  width: 532px;
+  width: 60%;
   height: 910px;
   float: right;
   padding-left: 34px;
