@@ -5,7 +5,7 @@
     "display": "autônomo",
     "name": "Social",
     "orientation": "any",
-    "scope": "/",
+    "scope": "/index.html",
     "short_name": "Social",
     "start_url": "/",
     "theme_color": "#ffffff",
