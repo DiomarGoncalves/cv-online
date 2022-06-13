@@ -1,0 +1,63 @@
+{
+    "background_color": "#ffffff",
+    "description": "area social",
+    "dir": "ltr",
+    "display": "autônomo",
+    "name": "Social",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Social",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+      {
+        "src": "imagens/favicon-32x32.png",
+        "tipo": "imagem/png",
+        "tamanhos": "32x32"
+      },
+      {
+        "src": "imagens/favicon-16x16.png",
+        "tipo": "imagem/png",
+        "tamanhos": "16x16"
+      },
+      {
+        "src": "imagens/favicon.ico",
+        "type": "imagem/ícone x"
+      },
+      {
+        "src": "imagens/apple-touch-icon.png",
+        "tipo": "imagem/png",
+        "tamanhos": "180x180"
+      }
+    ],
+    "shortcuts": [],
+    "atalhos": [],
+    "descrição": "",
+    "orientação": "qualquer",
+    "escopo": "/",
+    "categorias": [],
+    "capturas de tela": [],
+    "ícones": [
+      {
+        "src": "imagens/favicon-32x32.png",
+        "tipo": "imagem/png",
+        "tamanhos": "32x32"
+      },
+      {
+        "src": "imagens/favicon-16x16.png",
+        "tipo": "imagem/png",
+        "tamanhos": "16x16"
+      },
+      {
+        "src": "imagens/favicon.ico",
+        "type": "imagem/ícone x"
+      },
+      {
+        "src": "imagens/apple-touch-icon.png",
+        "tipo": "imagem/png",
+        "tamanhos": "180x180"
+      }
+    ]
+  }
