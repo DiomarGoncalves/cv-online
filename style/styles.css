@@ -12,17 +12,15 @@ main {
   width: 850px;
   max-width: 950px;
   height: 950px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  -webkit-box-shadow: 0 0 10px #575757;
-          box-shadow: 0 0 10px #575757;
+  box-shadow: 0 0 10px rgb(87, 87, 87);
   margin: 10px auto;
   padding: 0px;
 }
 
 #contatos {
-  background: -webkit-gradient(linear, left bottom, left top, from(#333e4b), to(#0e3e4b)) fixed;
   background: linear-gradient(to top, #333e4b, #0e3e4b) fixed;
   color: white;
   width: 280px;
@@ -73,6 +71,7 @@ main {
 
 #contatos ul li a:hover {
   background-color: #172432;
+  border-radius: 20rem;
 }
 
 #bio {
@@ -124,7 +123,7 @@ main {
 @media screen and (max-width: 480px) {
   main {
     max-width: 420px;
-    font-size: 1.0em;
+    font-size: 1em;
   }
   #contatos {
     padding: 20px;
@@ -142,5 +141,4 @@ main {
   #bio img {
     margin-top: 0px;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

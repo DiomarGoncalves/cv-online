@@ -19,13 +19,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
 
     <link rel="manifest" href="/site.webmanifest"> 
-    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="manifest" href="\servicework\manifest.webmanifest">
     <title>social</title>
 </head>
 <body>
     <script>
         if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('SW.js')
+            navigator.serviceWorker.register('servicework\SW.js')
               .then(function(){
                 console.log('service worker registered');
               })
@@ -36,15 +36,18 @@
     </script>
     <main>
         <section id="contatos">
-            <h1>Contato</h1>
+            <h1>Contatos</h1>
             <ul>
+                <li><img src="/imagens/curriculo.png" alt=""><a href="curriculo.pdf" download="curriculo.pdf">curriculo</a></li>
                 <li><img src="/imagens/facebook-ICO.png" alt=""><a href="https://www.facebook.com/diomar.neto.90/" target="blank_" rel="external">facebook</a></li>
                 <li><img src="/imagens/instagram-ICO.png" alt=""><a href="https://www.instagram.com/diomar_goncalve/"target="blank_"rel="external">instagram</a></li>
                 <li><img src="/imagens/twitter-ICO.png" alt=""><a href="https://twitter.com/GoncalvesDiomar"target="blank_"rel="external">twitter</a></li>
                 <li><img src="/imagens/github-ICO.png" alt=""><a href="https://github.com/DiomarBR" target="blank_" rel="external">github</a></li>
                 <li><img src="/imagens/whatsapp-ICO.png" alt=""><a href="https://api.whatsapp.com/send?phone=5562996814937&text=Ola" target="blank_"rel="external">whatsapp</a></li>
                 <li><img src="/imagens/linkedin-ICO.png" alt=""><a href="https://www.linkedin.com/in/diomar-gon%C3%A7alves-49b2b621a/" target="blank_" rel="external">linkedin</a></li>
-                <li><img src="/imagens/gmail-ICO.png" alt=""><a href = "mail:diomargoncalves@gmail.com" target="blank_"rel="external">gmail</a>l</li>
+
+
+                <li><img src="/imagens/gmail-ICO.png" alt=""><a href = "mailto:diomargocalves@gmail.com" target="blank_"rel="external">gmail</a>l</li>
             </ul>
             <h2>Principais Competências</h2>
             <ul class="container">
@@ -61,7 +64,7 @@
             <section class="resumo">
                 <h2>Resumo</h2>
                 <p>
-                Olá eu sou o Diomar Eu trabalhei na area da eletronica por um tempo, atualmente eu tabalho com o meu pai, Sou programador Júnior formado em HTML5 ,CSS3 ,JavaScript</p>
+                Olá eu sou o Diomar Eu trabalhei na area da eletronica por um tempo, atualmente eu tabalho com a minha namorada no mercado dela, procuro estágios ou um emprego como junior em alguma empresa no setor de desenvolvimento, Sou programador Júnior formado em HTML5 ,CSS3 ,JavaScript, python</p>
                 <hr>
             </section>
           
