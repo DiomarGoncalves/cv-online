@@ -107,3 +107,14 @@ section.topo-do-site .flex{
   max-height: 350px;
   max-width: 350px;
 }
+
+
+/*Page Projects*/
+.projects{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.card .card2{
+}
