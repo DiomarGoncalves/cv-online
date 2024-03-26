@@ -20,9 +20,9 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Pojetos</a></li>
+                    <li><a href="#Especialidades">Especialidades</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
@@ -38,7 +38,7 @@
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL.</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eveniet eos nam qui suscipit itaque saepe maiores esse inventore nihil libero molestias ab tempore doloremque delectus, laudantium reprehenderit. Omnis, quae?</p>
+                        <p>Na era digital, transformo ideias inovadoras em soluções tecnológicas personalizadas. Dedico-me a entender suas necessidades específicas para criar produtos digitais que trazem valor real para o seu negócio. Juntos moldaremos o futuro digital!</p>
                         <div class="btn-contato">
                             <a href="#"><button>Entre Em Contato</button></a>
                         </div>
@@ -52,7 +52,7 @@
 
         <section class="specialidades">
             <div class="interface">
-                <h2>MINHAS ESPECIALIDADES</h2>
+                <h2 id="Especialidades">MINHAS ESPECIALIDADES</h2>
                 <div class="flex">
                     <div class="servicos">
                         <div class="servicos__list">
@@ -98,7 +98,7 @@
 
         <section class="sobre">
             <div class="interface">
-                <h2>SOBRE</h2>
+                <h2 id="Sobre">SOBRE</h2>
                 <br>
                 <div class="flex">
                     <h3>
@@ -117,23 +117,65 @@
 
         <section class="projetos">
             <div class="interface">
-                <h2>PROJETOS</h2>
-                <div class="flex">
-                    <div class="projects">
-                        <div class="card">
-                                <div class="card2"><p class="project card2" onclick="showProject('https://alphadevs01.github.io/lokarveiculos/')">Site de Aluguel de veiculos</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                                <div class="card2"><p class="project card2" onclick="showProject('https://diomarbr.github.io/cell-imports/')">Site de catalogo</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                                <div class="card2"><p class="project card2" onclick="showProject('https://alphadevs01.github.io/Landingpage/')">Landingpage</p>
-                            </div>
+                <h2 id="Projetos">MEUS PROJETOS</h2>
+                <div class="flex-card">
+                    <div class="card">
+                        <div class="image image1"></div>
+                            <div class="content">
+                            <a href="#">
+                                <span class="title">
+                                Landing Page
+                                </span>
+                            </a>
+                            <p class="desc">
+                                Criação de landingPage para empresas
+                            </p>
+                            <a class="action" href="https://alphadevs01.github.io/Landingpage/" target="_blank"; rel="external">
+                                visitar
+                                <span aria-hidden="true">
+                                →
+                                </span>
+                            </a>
                         </div>
                     </div>
-                <iframe id="project-iframe" src=""></iframe>
+                    <div class="card">
+                        <div class="image image2"></div>
+                            <div class="content">
+                            <a href="#">
+                                <span class="title">
+                                Locação de Veículos
+                                </span>
+                            </a>
+                            <p class="desc">
+                                Site desenvolvido com o intuito de melhorar o acesso a locações de veiculos
+                            </p>
+                            <a class="action" href="https://alphadevs01.github.io/lokarveiculos/" target="_blank" rel="external">
+                                visitar
+                                <span aria-hidden="true">
+                                →
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image image3"></div>
+                            <div class="content">
+                            <a href="#">
+                                <span class="title">
+                                    Catálogo de Produtos
+                                </span>
+                            </a>
+                            <p class="desc">
+                                Catálogo de Produtos
+                            </p>
+                            <a class="action" href="https://diomarbr.github.io/cell-imports/" target="_blank" rel="external">
+                                visitar
+                                <span aria-hidden="true">
+                                →
+                                </span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
