@@ -157,6 +157,9 @@ section.topo-do-site .flex {
   color: #d3d3d3;
   overflow: hidden;
   transition: 0.25s ease-in-out;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(107,107,107,1);
+-moz-box-shadow: 0px 0px 10px 1px rgba(107,107,107,1);
+box-shadow: 0px 0px 10px 1px rgba(107,107,107,1);
 }
 
 .servicos__item:hover {
@@ -296,14 +299,57 @@ section.topo-do-site .flex {
 }
 
 /*Page Projects*/
+
+
+
+/* Desktops grandes (1200px e abaixo) */
+@media only screen and (max-width: 1200px) {
+  header > .interface {
+    padding: 0.2% 2%;
+  }
+  body{
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
+
+/* Desktops médios e grandes (992px e abaixo) */
+@media only screen and (max-width: 992px) {
+  .topo-do-site .txt-topo-site h1 {
+    font-size: 28px;
+  }
+  section.specialidades .servicos__item {
+    flex: 0 0 calc(50% - 21px);
+    min-width: 98vw;
+    margin-left: 1vw;
+  }
+}
+/* Tablets e dispositivos médios (768px e abaixo) */
+@media only screen and (max-width: 768px) {
+  .topo-do-site .txt-topo-site h1 {
+    font-size: 32px;
+  }
+  section.specialidades .servicos__item {
+    flex: 0 0 calc(50% - 21px);
+    min-width: 95vw;
+    margin: 2.5vw;
+  }
+  section{
+    margin-bottom: 1em;
+  }
+}
 /* Dispositivos pequenos (telefones, 600px e abaixo) */
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px; /* Ajuste o tamanho da fonte para dispositivos menores */
+    font-size: 14px;
+    margin-left: 5px;
+    /* Ajuste o tamanho da fonte para dispositivos menores */
   }
   header > .interface {
     flex-direction: column;
     align-items: center;
+  }
+  .interface h2{
+    font-size: 25px;
   }
   header nav ul li {
     padding: 10px;
@@ -323,35 +369,14 @@ section.topo-do-site .flex {
   }
   section.specialidades .servicos__item {
     flex: 0 0 calc(50% - 21px);
-    min-width: 95vw;
-    margin-left: 5vw;
+    margin: 4vw;
+    min-width: 90vw;
+  }
+  .flex-card{
+    margin-top: 50px;
+    margin-left: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
-/* Tablets e dispositivos médios (768px e abaixo) */
-@media only screen and (max-width: 768px) {
-  .topo-do-site .txt-topo-site h1 {
-    font-size: 32px;
-  }
-  section.specialidades .servicos__item {
-    flex: 0 0 calc(50% - 21px);
-    min-width: 95vw;
-    margin-left: 5vw;
-  }
-}
-/* Desktops médios e grandes (992px e abaixo) */
-@media only screen and (max-width: 992px) {
-  .topo-do-site .txt-topo-site h1 {
-    font-size: 28px;
-  }
-  section.specialidades .servicos__item {
-    flex: 0 0 calc(50% - 21px);
-    min-width: 98vw;
-    margin-left: 1vw;
-  }
-}
-/* Desktops grandes (1200px e abaixo) */
-@media only screen and (max-width: 1200px) {
-  header > .interface {
-    padding: 0.2% 2%;
-  }
-}/*# sourceMappingURL=styles.css.map */
