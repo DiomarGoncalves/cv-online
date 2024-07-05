@@ -365,7 +365,7 @@ box-shadow: 0px 0px 10px 1px rgba(107,107,107,1);
   .topo-do-site .img-topo-site img {
     max-width: 100%;
     height: auto;
-  }
+}
   .servicos__list {
     display: flex;
     gap: 21px;
