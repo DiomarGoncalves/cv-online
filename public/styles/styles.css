@@ -260,7 +260,7 @@ box-shadow: 0px 0px 10px 1px rgba(107,107,107,1);
   background-image: url(https://diomargoncalves.github.io/cv-online/imagens/cellimports.png);
 }
 .image4 {
-  background-image: url(https://diomargoncalves.github.io/cv-online/imagens/financEasy.jpg);
+  background-image: url(https://diomargoncalves.github.io/cv-online/imagens/financEasy1.jpg);
 }
 
 .title {
@@ -302,7 +302,8 @@ box-shadow: 0px 0px 10px 1px rgba(107,107,107,1);
 .flex-card {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /*Page Projects*/
