@@ -10,25 +10,25 @@ export const Projects = () => {
     {
       title: 'Prados Embalagens',
       description: 'E-commerce institucional simples e direto.',
-      imageUrl: '/prados-embalagens.png', // imagem do print fornecida
+      imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/predos_embalagens.png', // imagem do print fornecida
       link: 'https://prados-embalagens.vercel.app',
     },
     {
       title: 'Lokar Veículos',
       description: 'Plataforma para locação e visualização de veículos.',
-      imageUrl: '/lokar-veiculos.png', // imagem do print fornecida
+      imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/lokar.png', // imagem do print fornecida
       link: 'https://www.lokarveiculos.com.br',
     },
     {
       title: 'FinancEasy',
       description: 'Sistema de controle financeiro pessoal moderno.',
-      imageUrl: '/financeasy.png', // imagem do print fornecida
+      imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/financEasy.png', // imagem do print fornecida
       link: 'https://financeasy.alphadevss.com.br',
     },
     {
       title: 'AlphaDevs',
       description: 'Website da startup de desenvolvimento digital que cofundei.',
-      imageUrl: '/alphadevss.png', // imagem do print fornecida
+      imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/alphaDevss.png', // imagem do print fornecida
       link: 'http://alphadevss.com.br',
     },
   ];
