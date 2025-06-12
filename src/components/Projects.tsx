@@ -31,6 +31,12 @@ export const Projects = () => {
       imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/alphaDevss.png', // imagem do print fornecida
       link: 'http://alphadevss.com.br',
     },
+    {
+      title: 'SistemaRestaurant',
+      description: 'Sistema Para grandes e pequenos restaurantes',
+      imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/sistemaRestaurant.png', // imagem do print fornecida
+      link: 'https://sistema-restaurant-3iea.vercel.app',
+    },
   ];
 
   return (
