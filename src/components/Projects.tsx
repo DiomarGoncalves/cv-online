@@ -32,10 +32,16 @@ export const Projects = () => {
       link: 'http://alphadevss.com.br',
     },
     {
-      title: 'SistemaRestaurant',
+      title: 'Sistema Restaurant',
       description: 'Sistema Para grandes e pequenos restaurantes',
       imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/sistemaRestaurant.png', // imagem do print fornecida
       link: 'https://sistema-restaurant-3iea.vercel.app',
+    },
+    {
+      title: 'Sistema Atendimento Tecnico',
+      description: 'Sistema Para atendimentos tecnicos e suporte ao cliente para empresas que tenham um pos venda.',
+      imageUrl: 'https://raw.githubusercontent.com/DiomarGoncalves/cv-online/refs/heads/main/src/assets/atendimentos.png', // imagem do print fornecida
+      link: 'https://systema-atendimento-tecnico.vercel.app/',
     },
   ];
 
